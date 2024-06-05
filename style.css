@@ -1,0 +1,331 @@
+.zilla-slab-light {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zilla-slab-regular {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zilla-slab-medium {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .zilla-slab-semibold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .zilla-slab-bold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .zilla-slab-light-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .zilla-slab-regular-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .zilla-slab-medium-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .zilla-slab-semibold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .zilla-slab-bold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 300 to 700
+  
+  .quicksand-<uniquifier> {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }  
+
+
+
+  .gradient-background {
+    background: linear-gradient(300deg, #653751, #F36B67, #FDC094);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  header {
+    background-color: white;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 400px;
+  }
+
+  .site-title, .feature-title {
+    font-family: "Zilla Slab", serif;
+    font-weight: bolder;
+    color: #F36B67;
+  }
+
+  .nav-item, a {
+    font-family: "Quicksand", sans-serif;
+    color: #F36B67 !important;
+    font-weight: bolder;
+  }
+
+ 
+  #hero-name {
+    font-size: 40pt;
+    font-family: "Sacramento", serif;
+    color: white;
+  }
+
+#hero-text {
+    font-family: "Zilla Slab", serif;
+    color: white;
+    font-size: 15pt;
+  }
+
+.text-quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.feature-subtitle {
+  font-family: "Zilla Slab", serif;
+  color: #653751 !important;
+}
+
+.contact-form{
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+ 
+}
+
+.contact-image img{
+  width: 50%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.contact-form form{
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.contact-form h3{
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 70%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Biography*/
+
+.belgian-flag {
+  height: 19.5px;
+  width: 22.5px;
+  position: relative;
+  top: 3px;
+  display: inline-block;
+}
+#one {
+  height: 100%;
+  width: 7.5px;
+  background-color: rgb(0, 0, 0);
+
+}
+
+#two {
+  height: 100%;
+  width: 7.5px;
+  background-color: rgb(253, 218,36);
+  position: absolute;
+  left: 7.5px;
+  bottom: 0%;
+}
+
+#three {
+  height: 100%;
+  width: 7.5px;
+  background-color: rgb(239, 51, 64);
+  position: absolute;
+  left: 15px;
+  bottom: 0%;
+}
+
+
+/*above this is flag*/
+
+.biography {
+  font-family: "Zilla Slab", serif;
+  padding: 10px 5% 5% 5%;
+}
+
+.biography h2 {
+  color:#dc3545;
+  
+}
+
+#titles {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.item {
+  font-style: italic;
+ 
+
+}
+
+.sub-item {
+  font-weight: bold;
+
+}
+
+.list-none {
+  list-style: none;
+  padding-left: 25px;
+
+  
+}
+
+.flexbox {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: left;
+  width: 800px;
+}
+
+.line {
+  background-color:#dc3545;
+  width: 100%;
+  height: 2px;
+  margin-top: 20px;
+  width: 800px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  gap: 10px;
+}
+
+.grid-item {
+  width: 400px;
+}
+
+#summary>p {
+  max-width: 800px;
+  clear: both;
+  padding-top: 10px;
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+}
+
+#summary {
+  max-width: 800px;
+  clear: both;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.lang-id {
+  font-weight: bold;
+  color:#653751;
+  font-size: larger;
+}
+
+
+@media (max-width: 700px) {
+  .grid-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .flexbox {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
